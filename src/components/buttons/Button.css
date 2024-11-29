@@ -1,0 +1,120 @@
+body {
+  background-color: #f4f4f9;
+}
+
+.counter-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Arial', sans-serif;
+}
+
+p {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  min-width: 120px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: none;
+}
+
+.increment-btn {
+  background-color: #5b9bd5;
+}
+
+.increment-btn:hover {
+  background-color: #4a8bc2;
+}
+
+.increment-btn:active {
+  background-color: #3b6f9a;
+}
+
+.decrement-btn {
+  background-color: #d9534f; 
+}
+
+.decrement-btn:hover {
+  background-color: #c7423e;
+}
+
+.decrement-btn:active {
+  background-color: #a83530;
+}
+
+.reset-btn {
+  background-color: #f0ad4e;
+}
+
+.reset-btn:hover {
+  background-color: #e6952c;
+}
+
+.reset-btn:active {
+  background-color: #c57a21;
+}
+
+.num-btn-1 {
+  background-color: #5bc0de;
+}
+
+.num-btn-1:hover {
+  background-color: #47a5c0;
+}
+
+.num-btn-1:active {
+  background-color: #3d8a9b;
+}
+
+.num-btn-5 {
+  background-color: #5cb85c;
+}
+
+.num-btn-5:hover {
+  background-color: #47a44f;
+}
+
+.num-btn-5:active {
+  background-color: #3d8f3e;
+}
+
+.num-btn-10 {
+  background-color: #f0ad4e;
+}
+
+.num-btn-10:hover {
+  background-color: #e6952c;
+}
+
+.num-btn-10:active {
+  background-color: #c57a21;
+}
+
+.sum-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}

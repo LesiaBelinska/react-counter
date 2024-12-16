@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Button from "../buttons/Button.jsx";
+import Button from "../Buttons/Button.jsx";
 
 import s from "./ClickCounter.module.css";
 
@@ -8,17 +8,14 @@ const ClickCounter = () => {
 
   const handleIncrementClick = () => {
     setCount((prevCount) => prevCount + 1);
-    console.log("increment");
   };
 
   const handleDecrementClick = () => {
     setCount((prevCount) => prevCount - 1);
-    console.log("decrement");
   };
 
   const handleResetClick = () => {
     setCount(0);
-    console.log("reset");
   };
 
   return (
